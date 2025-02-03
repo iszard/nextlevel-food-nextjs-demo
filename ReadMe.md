@@ -1,6 +1,27 @@
 # React Forum Actions App
 
-About This is a project used as a refresher for formActions, useActionState, useFormStatus and useOptimistic. As part of my deep dive into React 19
+This is a project to demonstrate my ability to work with the Next.js framework.. As part of my deep dive into React 19
+
+Skill Hightlights:
+Next.js
+
+- App Router (File system inside app, page, layout, error, not-found, loading-out)
+- Dynamic Routes
+- Client and server components
+- revalidatePath to update cache
+- Metadata and dynamically generated metadata.
+- Server side input validation
+
+React Concepts:
+
+- Suspense, useFormState, useFormStatus
+
+Database, Data Storage:
+
+- SQLite
+- Storing files on the server
+- AWS S3
+- XSS protection (Cross Site Script attack pervention)
 
 Last run using: node v20.15.0
 
