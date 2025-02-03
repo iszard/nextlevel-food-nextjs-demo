@@ -34,7 +34,7 @@ package includes:
 .env file REQUIRED. Templated as follows:
 
 ```
-AWS_REGION=ca-central-1
+REGION=ca-central-1
 S3_BUCKET=gavynelrick-nextjs-demo-user-images.s3.amazonaws.com
 AWS_ACCESS_KEY_ID=<your aws access key>
 AWS_SECRET_ACCESS_KEY=<your aws secret access key>
