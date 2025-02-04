@@ -1,4 +1,4 @@
-# React Forum Actions App
+# NextJS - Nextlevel Food Community App
 
 This is a project to demonstrate my ability to work with the Next.js framework.. As part of my deep dive into React 19
 
