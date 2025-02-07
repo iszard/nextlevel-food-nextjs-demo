@@ -34,12 +34,20 @@ package includes:
 .env file REQUIRED. Templated as follows:
 
 ```
-REGION=ca-central-1
-S3_BUCKET=gavynelrick-nextjs-demo-user-images.s3.amazonaws.com
+REGION=<your S# bucket region>
+S3_BUCKET=<your S3 bucket name>
 AWS_ACCESS_KEY_ID=<your aws access key>
 AWS_SECRET_ACCESS_KEY=<your aws secret access key>
 
 IMAGE_STORING=aws # aws | local (default)
+
+MONGODB_USER=<your mongodb username>
+MONGODB_PASSWORD=<your mongodb password>
+MONGODB_CLUSTER_URL=<your cluster URL>
+MONGODB_DATABASE=<your database name>
+MONGODB_CLUSTER_NAME=<your cluster name>
+
+DATABASE_TYPE=mongodb # mongodb | sqlite (default)
 ```
 
 1. npm i

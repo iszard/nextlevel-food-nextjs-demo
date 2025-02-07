@@ -6,7 +6,7 @@ import classes from "./page.module.css";
 
 export async function generateMetaData({ params }) {
   const { mealSlug } = await params;
-  const meal = getMeal(mealSlug);
+  const meal = await getMeal(mealSlug);
 
   if (!meal) {
     notFound();
@@ -20,7 +20,7 @@ export async function generateMetaData({ params }) {
 
 async function MealDetailsPage({ params }) {
   const { mealSlug } = await params;
-  const meal = getMeal(mealSlug);
+  const meal = await getMeal(mealSlug);
 
   if (!meal) {
     notFound();
