@@ -18,7 +18,7 @@ React Concepts:
 
 Database, Data Storage:
 
-- SQLite
+- MongoDB - (previously SQLite though I've been in the option to switch for local DB use cases)
 - Storing files on the server
 - AWS S3
 - XSS protection (Cross Site Script attack pervention)
@@ -26,7 +26,8 @@ Database, Data Storage:
 Last run using: node v20.15.0
 
 package includes:
-<better-sqlite3> for use as database.
+<better-sqlite3> for use as an alternative database.
+<mongodb> for use as primary database.
 <xss> to protect against cross side scrypting attacks.
 <slugify> to create strict strings used for naming.
 <aws-sdk/client-s3> for AWS S3 resource access and storing.
